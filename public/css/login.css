@@ -1,0 +1,52 @@
+.eye{
+    position: absolute;
+    margin-left: -25px;
+    margin-top:3px;
+    cursor:pointer;
+}
+#hide1{
+    display:none;
+}
+h1{
+    text-align:center;
+}
+body{
+    margin:0;
+    padding:0;
+    background-image: url("../imgs/photo-1541339907198-e08756dedf3f.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.form-box{
+    width:400px;
+    height: 300px;
+    margin: 20px auto;
+    padding:10px;
+    background-color: rgba(255,255,255,0.62);
+    text-align:center;
+}
+.email,
+.password{
+    width: 250px;
+    height: 20px;
+}
+.submit{
+    width: 90px;
+    font-size: 15px;
+    margin-left: 175px;
+}
+.mb-4{
+    color: red;
+    display:inline-block;
+    line-height: 3px;
+}
+label.inline-flex.items-center{
+    margin-right: 142px;
+}
+a.underline.text-sm.text-gray-600.hover\:text-gray-900{
+    margin-right: 107px;
+}
+
+

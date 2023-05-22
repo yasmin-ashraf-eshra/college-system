@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background: black;
+    color: white;
+    padding: 10px
+}
+
+.img {
+    width: 50px;
+    margin-bottom: 30px
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.wrapper .sidebar ul li a {
+    display: block;
+    color: white;
+}
+
+.wrapper .sidebar ul li:hover {
+    color: black;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #c2d6d6;
+}
+
+/* form in create and registerstudents */
+.form-box {
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #ccc;
+    text-align: center;
+}
